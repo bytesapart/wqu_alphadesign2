@@ -1,0 +1,6 @@
+numpy==1.14.3
+matplotlib==2.1.0
+ffn==0.3.3
+seaborn==0.8
+pandas==0.19.0
+requests==2.19.1

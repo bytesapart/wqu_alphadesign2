@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d461bf72-6edb-4803-a40b-cb88f77a50b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment5/README.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Osama_Iqbal-Assignment_5-09_Jul_2018.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/a5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/a5.py" afterDir="false" />
     </list>
@@ -15,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/alphadesign2$a3.coverage" NAME="a3 Coverage Results" MODIFIED="1529897707024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/alphadesign2$a2.coverage" NAME="a2 Coverage Results" MODIFIED="1529361824845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/alphadesign2$a5.coverage" NAME="a5 Coverage Results" MODIFIED="1531092176162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment5" />
+    <SUITE FILE_PATH="coverage/alphadesign2$a5.coverage" NAME="a5 Coverage Results" MODIFIED="1531113271793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment5" />
     <SUITE FILE_PATH="coverage/alphadesign2$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1529354166437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment1" />
     <SUITE FILE_PATH="coverage/alphadesign2$a4.coverage" NAME="a4 Coverage Results" MODIFIED="1530499749484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment4" />
   </component>
@@ -30,11 +34,20 @@
       <file leaf-file-name="a5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="113" column="79" selection-start-line="113" selection-start-column="79" selection-end-line="113" selection-end-column="79" />
+            <state relative-caret-position="306">
+              <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
               <folding>
                 <element signature="e#1093#1184#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignment4/a4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="169" column="19" lean-forward="true" selection-start-line="159" selection-start-column="8" selection-end-line="169" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -71,6 +84,7 @@
       <find>p</find>
       <find>pdr_override</find>
       <find>logging.</find>
+      <find>AAPL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,6 +141,11 @@
             <path>
               <item name="alphadesign2" type="b2602c69:ProjectViewProjectNode" />
               <item name="alphadesign2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alphadesign2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alphadesign2" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alphadesign2" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +322,21 @@
       <option name="project" value="LOCAL" />
       <updated>1529897856878</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some more code to a5">
+      <created>1531105055766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531105055766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="some more code to a5">
+      <created>1531105141188</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531105141188</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -317,13 +350,13 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32990867" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4611872" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32990867" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.40138593" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.47974414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32990867" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2625571" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -342,7 +375,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete Assignment 1 and 2" />
     <MESSAGE value="Complete Mini Project 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Mini Project 3" />
+    <MESSAGE value="some more code to a5" />
+    <option name="LAST_COMMIT_MESSAGE" value="some more code to a5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,18 +458,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
-          <line>94</line>
+          <line>95</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
-          <line>62</line>
-          <option name="timeStamp" value="77" />
+          <line>139</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
-          <line>113</line>
-          <option name="timeStamp" value="78" />
+          <line>116</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
+          <line>114</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Assignment5/a5.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -445,13 +499,14 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="79" />
+      <option name="time" value="86" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string />
+        <expression-string>plt.show()
+plt.close()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -510,47 +565,47 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>data_diff = data.diff(periods=1)</expression-string>
+        <expression-string>data</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today))</expression-string>
+        <expression-string>df_portfolio_value_bo = twenty_data['result_bo']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today), auto_adjust=True)[&quot;AAPL&quot;]</expression-string>
+        <expression-string>print perf_bo.display()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today), auto_adjust=True)</expression-string>
+        <expression-string>perf_bo = df_portfolio_value_bo.calc_stats()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)['Close']['AAPL']</expression-string>
+        <expression-string>twenty_data</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)['Close']</expression-string>
+        <expression-string>strategy</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)</expression-string>
+        <expression-string>eighty_data[eighty_data['result_mr'] &gt; 0]['result_mr'].mean() / eighty_data[eighty_data['result_mr'] &lt; 0]['result_mr'].mean()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker, 'MSFT'], start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)['AAPL']</expression-string>
+        <expression-string>p_mr * (plr_mr + 1) - 1 / plr_mr</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pdr.get_data_yahoo([stock_ticker], start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)['AAPL']</expression-string>
+        <expression-string>plr_mr = eighty_data[eighty_data['result_mr'] &gt; 0]['result_mr'].mean() / eighty_data[eighty_data['result_mr'] &lt; 0]['result_mr'].mean()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -806,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Anaconda2_64/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -882,13 +930,6 @@
     <entry file="file://$PROJECT_DIR$/Assignment4/20151117-master.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment4/a4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment4/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -913,10 +954,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="1663" column="10" lean-forward="true" selection-start-line="1663" selection-start-column="10" selection-end-line="1663" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignment4/a4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="169" column="19" lean-forward="true" selection-start-line="159" selection-start-column="8" selection-end-line="169" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="113" column="79" selection-start-line="113" selection-start-column="79" selection-end-line="113" selection-end-column="79" />
+        <state relative-caret-position="306">
+          <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
           <folding>
             <element signature="e#1093#1184#0" expanded="true" />
           </folding>

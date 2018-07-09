@@ -27,6 +27,7 @@ import pandas as pd
 import warnings  # For removing Deprication Warning w.r.t. Yahoo Finance Fix
 import datetime  # For setting correct dates from today up to a year in the past to get data from YF
 import numpy as np  # For numerical operations
+import matplotlib.pyplot as plt
 
 with warnings.catch_warnings():
     warnings.simplefilter("ignore")
@@ -60,7 +61,7 @@ def get_data_from_yahoo_finance(stock_ticker):
     """
     today = datetime.datetime.now().date() - datetime.timedelta(1)
     previous_years = today.replace(year=today.year - 5)
-    data = pdr.get_data_yahoo(stock_ticker, start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)
+    data = pdr.get_data_yahoo(stock_ticker, start=str(previous_years), end=str(today), auto_adjust=True)
     if data.empty:
         print('No Data found for Ticker %s. The ticker does not exist' % stock_ticker)
         raise ValueError('No Data found for Ticker %s. The ticker does not exist' % stock_ticker)
@@ -88,11 +89,11 @@ def main():
         # ===== Step 2: Download the data for the Ticker =====
         # Get the data fetched from Yahoo Finance
         data = get_data_from_yahoo_finance(str(stock_ticker))
-        data = data['Open']
+        data = pd.DataFrame(data['Open'])
         data = data.sort_index(axis=0, ascending=True)
 
         # Calculate daily differences
-        data['diff'] = data[str(stock_ticker)].diff(periods=1)
+        data['diff'] = data.diff(periods=1)
         ## Calcultate the cumulative returns
         data['cum'] = data['diff'].cumsum()
 
@@ -112,6 +113,8 @@ def main():
         # if we do not want to filter we use below line of code
         # df['filteredresult_mr'] = (df['diff'] * df['position_mr']).cumsum()
         data[['ma_mr', 'result_mr', 'filteredresult_mr']].plot(figsize=(10, 8))
+        plt.show()
+        plt.close()
 
         # Breakout
         # Setting position long = 1 and short = -1 based on previous day move
@@ -130,10 +133,46 @@ def main():
         data['filteredresult_bo'] = np.where(filtering_bo, data['diff'] * data['position_bo'], 0).cumsum()
         # df['filteredresult_bo'] = (df['diff'] * df['position_bo']).cumsum()
         data[['ma_bo', 'result_bo', 'filteredresult_bo']].plot(figsize=(10, 8))
-
+        plt.show()
+        plt.close()
         # Here we combine the Meanreversion and the Breakout strategy results
         data['combi'] = data['filteredresult_mr'] + data['filteredresult_bo']
         data[['combi', 'filteredresult_mr', 'filteredresult_bo']].plot(figsize=(10, 8))
+
+        # get 80% data
+        data['sel'] = range(int(len(data)))
+        eighty_data = data.loc[:data.index[data['sel'] == int(0.8 * len(data))].strftime('%Y%m%d').tolist()[0]]
+        # Calculate Optimal F for 80% data FOR MOVING AVERAGE
+        p_mr = float(len(eighty_data[eighty_data['result_mr'] > 0])) / float(len(data))
+        plr_mr = eighty_data[eighty_data['result_mr'] > 0]['result_mr'].mean() / eighty_data[eighty_data['result_mr'] < 0]['result_mr'].mean()
+        op_f_mr = p_mr * (plr_mr + 1) - 1 / plr_mr
+        print('Optimal F for MR is: %s' % str(op_f_mr))
+
+        # Calculate Optimal F for 80% data FOR BREAKOUT
+        p_bo = float(len(eighty_data[eighty_data['result_bo'] > 0])) / float(len(data))
+        plr_bo = eighty_data[eighty_data['result_bo'] > 0]['result_bo'].mean() / \
+                 eighty_data[eighty_data['result_bo'] < 0]['result_bo'].mean()
+        op_f_bo = p_bo * (plr_bo + 1) - 1 / plr_bo
+        print('Optimal F for BO is: %s' % str(op_f_bo))
+
+        # Calculate KPIs on 20% data
+        twenty_data = data.loc[:data.index[data['sel'] == int(0.2 * len(data))].strftime('%Y%m%d').tolist()[0]]
+        import ffn
+        # FOR Moving Average
+        df_portfolio_value_mr = twenty_data['result_mr']
+        perf = df_portfolio_value_mr.calc_stats()
+        perf.plot()
+        plt.show()
+        plt.close()
+        print perf.display()
+
+        # FOR Breakout
+        df_portfolio_value_bo = twenty_data['result_bo']
+        perf_bo = df_portfolio_value_bo.calc_stats()
+        perf_bo.plot()
+        plt.show()
+        plt.close()
+        print perf_bo.display()
 
     except BaseException, e:
         # Casting a wide net to catch all exceptions

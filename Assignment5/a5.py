@@ -178,7 +178,7 @@ def main():
         # Casting a wide net to catch all exceptions
         print('\n%s' % str(e))
         return 1
-
+        #Some comment
 
 # Main block of the program. The program begins execution from this block when called from a cmd
 if __name__ == '__main__':

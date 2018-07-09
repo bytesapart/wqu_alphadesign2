@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d461bf72-6edb-4803-a40b-cb88f77a50b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment5/README.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Osama_Iqbal-Assignment_5-09_Jul_2018.zip" afterDir="false" />
+    <list default="true" id="d461bf72-6edb-4803-a40b-cb88f77a50b0" name="Default" comment="complete a5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment5/a5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/a5.py" afterDir="false" />
     </list>
@@ -34,8 +30,8 @@
       <file leaf-file-name="a5.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+            <state relative-caret-position="332">
+              <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
               <folding>
                 <element signature="e#1093#1184#0" expanded="true" />
               </folding>
@@ -165,11 +161,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\Assignment4" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\Assignment1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\Assignment4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531105141188</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete a5">
+      <created>1531113675095</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531113675095</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +379,8 @@
     <MESSAGE value="Complete Assignment 1 and 2" />
     <MESSAGE value="Complete Mini Project 3" />
     <MESSAGE value="some more code to a5" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more code to a5" />
+    <MESSAGE value="complete a5" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete a5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -970,8 +974,8 @@ plt.close()</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="179" column="16" lean-forward="true" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        <state relative-caret-position="332">
+          <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
           <folding>
             <element signature="e#1093#1184#0" expanded="true" />
           </folding>

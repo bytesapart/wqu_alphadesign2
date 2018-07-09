@@ -113,6 +113,28 @@ def main():
         # df['filteredresult_mr'] = (df['diff'] * df['position_mr']).cumsum()
         data[['ma_mr', 'result_mr', 'filteredresult_mr']].plot(figsize=(10, 8))
 
+        # Breakout
+        # Setting position long = 1 and short = -1 based on previous day move
+        # By setting the delta to negative we are switching the strategy to Breakout
+        delta = -0.01
+        # If previous day price difference was less than or equal then delta, we go long
+        # If previous day price difference was more than or equal then delta, we go short
+        data['position_bo'] = np.where(data['diff'].shift(1) <= -delta, 1,
+                                       np.where(data['diff'].shift(1) >= delta, -1, 0))
+        data['result_bo'] = (data['diff'] * data['position_bo']).cumsum()
+
+        # We will filter execution of our strategy by only executing if our result are above it's 200 day moving average
+        win = 200
+        data['ma_bo'] = pd.rolling_mean(data['result_bo'], window=win)
+        filtering_bo = data['result_bo'].shift(1) > data['ma_bo'].shift(1)
+        data['filteredresult_bo'] = np.where(filtering_bo, data['diff'] * data['position_bo'], 0).cumsum()
+        # df['filteredresult_bo'] = (df['diff'] * df['position_bo']).cumsum()
+        data[['ma_bo', 'result_bo', 'filteredresult_bo']].plot(figsize=(10, 8))
+
+        # Here we combine the Meanreversion and the Breakout strategy results
+        data['combi'] = data['filteredresult_mr'] + data['filteredresult_bo']
+        data[['combi', 'filteredresult_mr', 'filteredresult_bo']].plot(figsize=(10, 8))
+
     except BaseException, e:
         # Casting a wide net to catch all exceptions
         print('\n%s' % str(e))

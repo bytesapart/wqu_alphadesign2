@@ -60,7 +60,7 @@ def get_data_from_yahoo_finance(stock_ticker):
     """
     today = datetime.datetime.now().date() - datetime.timedelta(1)
     previous_years = today.replace(year=today.year - 5)
-    data = pdr.get_data_yahoo(stock_ticker, start=str(previous_years), end=str(today), auto_adjust=True)
+    data = pdr.get_data_yahoo(stock_ticker, start=str(previous_years), end=str(today), auto_adjust=True, as_panel=True)
     if data.empty:
         print('No Data found for Ticker %s. The ticker does not exist' % stock_ticker)
         raise ValueError('No Data found for Ticker %s. The ticker does not exist' % stock_ticker)
@@ -87,28 +87,28 @@ def main():
 
         # ===== Step 2: Download the data for the Ticker =====
         # Get the data fetched from Yahoo Finance
-        stock_data = get_data_from_yahoo_finance(str(stock_ticker))
-        stock_data = stock_data.sort_index(axis=0, ascending=True)
+        data = get_data_from_yahoo_finance(str(stock_ticker))
+        data = data['Open']
+        data = data.sort_index(axis=0, ascending=True)
 
-        # Calculate the daily differences
-        data_diff = stock_data.diff(periods=1)
-        # Calcultate the cumulative returns
-        data_cum = data_diff.cumsum()
+        # Calculate daily differences
+        data['diff'] = data[str(stock_ticker)].diff(periods=1)
+        ## Calcultate the cumulative returns
+        data['cum'] = data['diff'].cumsum()
 
-        # Meanreversion
+        #Meanreversion
         # Setting position long = 1 and short = -1 based on previous day move
         delta = 0.005
         # If previous day price difference was less than or equal then delta, we go long
         # If previous day price difference was more than or equal then delta, we go short
-        data_position_mr = np.where(data_diff.shift(1) <= -delta, 1,
-                                    np.where(data_diff.shift(1) >= delta, -1, 0))
-        data_result_mr = (data_diff * data_position_mr).cumsum()
+        data['position_mr'] = np.where(data['diff'].shift(1) <= -delta,1, np.where(data['diff'].shift(1) >= delta, -1, 0))
+        data['result_mr'] = (data['diff'] * data['position_mr']).cumsum()
 
         # We will filter execution of our strategy by only executing if our result are above it's 200 day moving average
         win = 200
-        data_ma_mr = pd.rolling_mean(data_result_mr, window=win)
-        filtering_mr = data_result_mr.shift(1) > data_ma_mr.shift(1)
-        data_filteredresult_mr = np.where(filtering_mr, data_diff * data_position_mr, 0).cumsum()
+        data['ma_mr'] = pd.rolling_mean(data['result_mr'], window=win)
+        filtering_mr = data['result_mr'].shift(1) > data['ma_mr'].shift(1)
+        data['filteredresult_mr'] = np.where(filtering_mr, data['diff'] * data['position_mr'], 0).cumsum()
         # if we do not want to filter we use below line of code
         # df['filteredresult_mr'] = (df['diff'] * df['position_mr']).cumsum()
         data[['ma_mr', 'result_mr', 'filteredresult_mr']].plot(figsize=(10, 8))

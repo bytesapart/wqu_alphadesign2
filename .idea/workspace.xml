@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d461bf72-6edb-4803-a40b-cb88f77a50b0" name="Default" comment="complete a5">
+    <list default="true" id="d461bf72-6edb-4803-a40b-cb88f77a50b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/FinalProject/FinalProject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/README.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Osama_Iqbal-FinalProject-17_Jul_2018.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment5/a5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/a5.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +19,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/alphadesign2$a3.coverage" NAME="a3 Coverage Results" MODIFIED="1529897707024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment3" />
     <SUITE FILE_PATH="coverage/alphadesign2$a2.coverage" NAME="a2 Coverage Results" MODIFIED="1529361824845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment2" />
-    <SUITE FILE_PATH="coverage/alphadesign2$a5.coverage" NAME="a5 Coverage Results" MODIFIED="1531113271793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment5" />
+    <SUITE FILE_PATH="coverage/alphadesign2$a5.coverage" NAME="a5 Coverage Results" MODIFIED="1531791097369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment5" />
+    <SUITE FILE_PATH="coverage/alphadesign2$FinalProject.coverage" NAME="FinalProject Coverage Results" MODIFIED="1531795806455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FinalProject" />
     <SUITE FILE_PATH="coverage/alphadesign2$a1.coverage" NAME="a1 Coverage Results" MODIFIED="1529354166437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment1" />
     <SUITE FILE_PATH="coverage/alphadesign2$a4.coverage" NAME="a4 Coverage Results" MODIFIED="1530499749484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment4" />
   </component>
@@ -27,14 +32,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="a5.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="a5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+            <state relative-caret-position="-14">
+              <caret line="166" column="28" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="166" selection-end-column="28" />
               <folding>
                 <element signature="e#1093#1184#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinalProject.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FinalProject/FinalProject.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
+              <folding>
+                <element signature="e#205#314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FinalProject/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="351">
+                <caret line="17" column="130" selection-start-line="17" selection-start-column="130" selection-end-line="17" selection-end-column="130" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -43,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/Assignment4/a4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="169" column="19" lean-forward="true" selection-start-line="159" selection-start-column="8" selection-end-line="169" selection-end-column="19" />
+              <caret line="168" column="8" lean-forward="true" selection-start-line="168" selection-start-column="8" selection-end-line="169" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,6 +110,9 @@
       <find>pdr_override</find>
       <find>logging.</find>
       <find>AAPL</find>
+      <find>import ffn</find>
+      <find>py</find>
+      <find>find_kpi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,6 +136,9 @@
         <option value="$PROJECT_DIR$/Assignment4/README.md" />
         <option value="$PROJECT_DIR$/Assignment4/a4.py" />
         <option value="$PROJECT_DIR$/Assignment5/a5.py" />
+        <option value="$PROJECT_DIR$/FinalProject/README.md" />
+        <option value="$PROJECT_DIR$/FinalProject/FinalProject.py" />
+        <option value="$PROJECT_DIR$/FinalProject/requirements.txt" />
       </list>
     </option>
   </component>
@@ -141,12 +176,12 @@
             <path>
               <item name="alphadesign2" type="b2602c69:ProjectViewProjectNode" />
               <item name="alphadesign2" type="462c0819:PsiDirectoryNode" />
-              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignment5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alphadesign2" type="b2602c69:ProjectViewProjectNode" />
               <item name="alphadesign2" type="462c0819:PsiDirectoryNode" />
-              <item name="Assignment5" type="462c0819:PsiDirectoryNode" />
+              <item name="FinalProject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,11 +196,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\FinalProject" />
+      <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\Assignment4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\Assignment1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Osama Iqbal\PycharmProjects\alphadesign2\Assignment4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,8 +216,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a5">
-    <configuration name="a1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FinalProject">
+    <configuration name="FinalProject" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="alphadesign2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,12 +225,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FinalProject" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment1/a1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FinalProject/FinalProject.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,19 +313,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.a1" />
       <item itemvalue="Python.a2" />
       <item itemvalue="Python.a3" />
       <item itemvalue="Python.a4" />
       <item itemvalue="Python.a5" />
+      <item itemvalue="Python.FinalProject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FinalProject" />
         <item itemvalue="Python.a5" />
         <item itemvalue="Python.a4" />
         <item itemvalue="Python.a3" />
         <item itemvalue="Python.a2" />
-        <item itemvalue="Python.a1" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531113675095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="complete a5">
+      <created>1531113714300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531113714300</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -351,15 +394,15 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32990867" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4611872" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22260274" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32990867" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.47974414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2625571" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44748858" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -495,6 +538,11 @@
           <line>142</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FinalProject/FinalProject.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -503,34 +551,38 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="86" />
+      <option name="time" value="94" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>for col in p.columns:
+    print(p[col].replace(0, np.nan).dropna(how='all').calc_stats().display())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for col in p.columns:
+    print(p[col].replace(0, np.nan).dropna(how='all').calc_stats())</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for col in p.columns:
+    p[col].replace(0, np.nan).dropna(how='all').calc_stats()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>for col in p.columns:
+    print col</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>plt.show()
 plt.close()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string />
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string />
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string />
-        <language-id>Python</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string />
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -569,84 +621,58 @@ plt.close()</expression-string>
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>data</expression-string>
+        <expression-string>p[col].replace(0, np.nan).dropna(how='all').calc_max_drawdown()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>df_portfolio_value_bo = twenty_data['result_bo']</expression-string>
+        <expression-string>plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>print perf_bo.display()</expression-string>
+        <expression-string>p[col].calc_max_drawdown()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>perf_bo = df_portfolio_value_bo.calc_stats()</expression-string>
+        <expression-string>p[col].to_drawdown_series().dropna().plot()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>twenty_data</expression-string>
+        <expression-string>plt.close()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>strategy</expression-string>
+        <expression-string>p[col].to_drawdown_series().dropna()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>eighty_data[eighty_data['result_mr'] &gt; 0]['result_mr'].mean() / eighty_data[eighty_data['result_mr'] &lt; 0]['result_mr'].mean()</expression-string>
+        <expression-string>p[col].to_drawdown_series()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>p_mr * (plr_mr + 1) - 1 / plr_mr</expression-string>
+        <expression-string>p.columns</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>plr_mr = eighty_data[eighty_data['result_mr'] &gt; 0]['result_mr'].mean() / eighty_data[eighty_data['result_mr'] &lt; 0]['result_mr'].mean()</expression-string>
+        <expression-string>p = port_new['pos']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>port_new['pos']['AAPL'].loc[~(port_new['pos']['AAPL'] == 0).all()]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#1093#1184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment1/a1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6344">
-          <caret line="253" column="78" selection-start-line="253" selection-start-column="11" selection-end-line="253" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment2/a2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="38" column="37" selection-start-line="36" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment3/a3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4680">
-          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assignment4/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -965,19 +991,53 @@ plt.close()</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment4/a4.py">
+    <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="169" column="19" lean-forward="true" selection-start-line="159" selection-start-column="8" selection-end-line="169" selection-end-column="19" />
+        <state relative-caret-position="-14">
+          <caret line="166" column="28" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="166" selection-end-column="28" />
+          <folding>
+            <element signature="e#1093#1184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignment5/a5.py">
+    <entry file="file://$PROJECT_DIR$/Assignment4/a4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+        <state relative-caret-position="390">
+          <caret line="168" column="8" lean-forward="true" selection-start-line="168" selection-start-column="8" selection-end-line="169" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="351">
+            <caret line="17" column="130" selection-start-line="17" selection-start-column="130" selection-end-line="17" selection-end-column="130" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Anaconda2_64/Lib/site-packages/pandas_datareader/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalProject/FinalProject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="210" column="20" selection-start-line="210" selection-start-column="20" selection-end-line="210" selection-end-column="20" />
           <folding>
-            <element signature="e#1093#1184#0" expanded="true" />
+            <element signature="e#205#314#0" expanded="true" />
           </folding>
         </state>
       </provider>
